@@ -2,7 +2,7 @@ var express = require ('express');
 var router = express.Router();
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://heroku_dzqdjbpp:m4q2mgf93oiqlk2h0os6ocgq3s@ds139655.mlab.com:39655/heroku_dzqdjbpp');
+mongoose.connect('mongodb://heroku_442gngff:dvpcksk5n34h4umhr9p5g5n3bo@ds029106.mlab.com:29106/heroku_442gngff');
 var db = mongoose.connection;
 
 db.on('error', function (err) {
